@@ -30,7 +30,7 @@ body {
 }
 
 .home-pic {
-  border-style: solid;
+  box-shadow: 5px 5px 5px #999;
 }
 
 .home-text {
@@ -43,6 +43,11 @@ body {
   list-style-type: '‣ ';
   margin: 0;
   padding: 5px;
+}
+
+.nested-list {
+  list-style-type: '▹ ';
+  padding-left: 40;
 }
 
 .blue-text {

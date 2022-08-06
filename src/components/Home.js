@@ -4,37 +4,36 @@ import '../styles/home.css';
 
 const Home = () => {
   return (
-    <div className="home-container">
-      <div className="home-pic">
-        {/* <img
-          src={require('../assets/meandtortoise.JPG')}
+    <div className="home-container flex flex-col mx-auto mb-10">
+      <div className="rounded-full drop-shadow-2xl">
+        <img
+          src={require('../assets/me.JPG')}
           alt="work please"
           width="200"
           height="200"
-        /> */}
+          className="rounded-full drop-shadow-2xl home-pic shadow-outline"
+        />
       </div>
 
       <div className="home-text">
-        <h2>🤗 about me </h2>
+        <h2 className="text-xl mb-2 font-bold">🤗 about me </h2>
         <hr />
         <p>
-          hi! my name is cheyenne — avid{' '}
-          <span className="lavender-text">world traveler</span> 🌎, soon-to-be{' '}
+          hi! my name is cheyenne — soon-to-be{' '}
           <span className="blue-text">management consultant</span> in nyc 🏙️,
           former <span className="yellow-text">cs major</span> at princeton 🐯,
-          forever <span className="green-text">seattleite</span> ⛰️.
+          born-and-raised <span className="green-text">seattleite</span> ⛰️.
         </p>
         <p>
-          welcome to my little corner of the internet where i talk about{' '}
-          <span className="bolded-text">travel, food, career</span>, and
-          whatever other random thoughts cross my mind :)
+          welcome to my little corner of the internet where i talk about career,
+          self-improvement, life, and whatever other random thoughts cross my
+          mind :)
         </p>
         <p className="italicized-text">
-          other interests that i may or may not write about include: film, the
-          asian-american experience, self-help books, health + fitness, and
-          kpop!
+          other interests that i may or may not write about include: travel,
+          food, film, the asian-american experience, health + fitness, and kpop!
         </p>
-        <h2> 💫 currently </h2>
+        <h2 className="text-xl mb-2 my-4 font-bold"> 💫 currently </h2>
         <hr />
         <ul className="about-list">
           <li>
@@ -42,8 +41,8 @@ const Home = () => {
             enjoying my post-grad summer — alternating between traveling the
             world and spending precious time at home before moving to nyc to
             start work full time{' '}
-            <ul>
-              <li>
+            <ul className="nested-list">
+              <li className="nested-list-item">
                 favorite destinations this year include: istanbul 🇹🇷, guayaquil
                 🇪🇨, and busan 🇰🇷
               </li>
@@ -99,25 +98,28 @@ const Home = () => {
             cry for help i am a react noob)
           </li>
         </ul>
-        <h2> 📩 connect with me! </h2>
+        <h2 className="text-xl mb-2 my-4 font-bold"> 📩 contact </h2>
         <hr />
         <p>
-          would love to have you join my newsletter, a once-a-month combo of
-          travel inspiration and tips, aesthetic food pics, and career advice —
-          delivered straight to your inbox! plus, some extra special content
-          only for those on the mailing list :o{' '}
-        </p>
-        <p>
-          otherwise, you can find me on my{' '}
+          feel free to connect with me on{' '}
           <a
-            href="https://instagram.com/cheyeatsfood"
+            href="https://www.linkedin.com/in/cheyenne-zhang/"
             className="bolded-text"
             target="_blank"
             rel="noopener noreferrer"
           >
-            food/travel instagram
-          </a>{' '}
-          or{' '}
+            linkedin
+          </a>
+          , follow me on{' '}
+          <a
+            href="https://github.com/cheyzhang"
+            className="bolded-text"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            github
+          </a>
+          , or shoot me an{' '}
           <a
             href="mailto:cheyenne1318@outlook.com"
             className="bolded-text"
@@ -129,16 +131,16 @@ const Home = () => {
           !
         </p>
         <p>
-          for other content, i'm also occasionally on{' '}
+          for more fun content, you can find me on my{' '}
           <a
-            href="https://github.com/cheyzhang"
+            href="https://instagram.com/cheyeatsfood"
             className="bolded-text"
             target="_blank"
             rel="noopener noreferrer"
           >
-            github 💻
+            food/travel instagram
           </a>{' '}
-          (peep the code for this website) and frequently on{' '}
+          or{' '}
           <a
             href="https://letterboxd.com/chey13/"
             className="bolded-text"

@@ -5,7 +5,7 @@ import '../styles/navbar.css';
 
 const NavLink = ({ page }) => {
   return (
-    <Link to={`/${page}`} className="navlink-text">
+    <Link to={`/${page}`} className="navlink-text text-lg">
       {page}
     </Link>
   );
@@ -13,7 +13,7 @@ const NavLink = ({ page }) => {
 
 const NavBar = () => {
   return (
-    <div className="navbar">
+    <div className="navbar mb-2 my-4">
       <div className="navbar-logo"></div>
       <NavLink page="home" />
       <NavLink page="blog" />

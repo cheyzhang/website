@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   position: relative; /* for the logo specifically */
-  /* border-style: solid; */
+  /* border-bottom: solid; */
 }
 
 .navbar-logo {
