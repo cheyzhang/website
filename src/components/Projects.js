@@ -3,15 +3,13 @@ import React from 'react';
 import '../styles/projects.css';
 
 const Projects = () => {
-    return (
-      <div className='projects-container'>
-        <div className='projects-text'>
-          <h1>
-            this is MY PROJECTS
-          </h1>
-        </div>
+  return (
+    <div className="projects-container">
+      <div className="projects-text">
+        <h1>this is MY PAST WORK</h1>
       </div>
-    );
-  };
-  
-  export default Projects;
+    </div>
+  );
+};
+
+export default Projects;

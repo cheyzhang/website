@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 // import logo from './logo.svg';
 import './App.css';
@@ -9,12 +9,11 @@ import Projects from './components/Projects';
 import Blog from './components/Blog';
 import NavBar from './components/NavBar';
 
-
 function App() {
   return (
     <Router>
       <Routes>
-      <Route path="/:page" element={<NavBar />} />
+        <Route path="/:page" element={<NavBar />} />
       </Routes>
       <Routes>
         <Route path="/" element={<Home />} />

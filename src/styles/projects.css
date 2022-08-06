@@ -1,8 +1,8 @@
 .projects-container {
-    box-sizing: border-box;
-    min-height: calc(100vh - 8rem - 35px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
+  box-sizing: border-box;
+  min-height: calc(100vh - 8rem - 35px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

@@ -1,0 +1,94 @@
+body {
+  font-family: 'Red Hat Display', 'Quicksand', 'Source Sans Pro', sans-serif;
+}
+
+:root {
+  --blue: #bfd7ea;
+  --cream: #f8f6f0;
+  --green: #bfdcbc;
+  --gray: #d3d5d8;
+  --lavender: #e6e6fa;
+  --yellow: #ededa6;
+
+  --darker-blue: #5f9bca;
+  --darker-green: #81ba7b;
+  --darker-lavender: #a6a6ed;
+  --darker-yellow: #fcc203;
+}
+
+.home-container {
+  box-sizing: border-box;
+  min-height: calc(100vh - 8rem - 35px);
+  /* min-width: calc(100vw - 8rem - 35px); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: medium;
+  /* border-style: solid;
+  border-color: #5f9bca; */
+}
+
+.home-pic {
+  /* border-style: solid; */
+}
+
+.home-text {
+  /* border-style: solid; */
+  padding: 10px;
+  width: 45%;
+}
+
+.about-list {
+  list-style-type: '‣ ';
+  margin: 0;
+  padding: 5px;
+}
+
+.blue-text {
+  color: var(--darker-blue);
+  font-weight: 800;
+}
+
+.green-text {
+  color: var(--darker-green);
+  font-weight: 800;
+}
+
+.lavender-text {
+  color: var(--darker-lavender);
+  font-weight: 800;
+}
+
+.yellow-text {
+  color: var(--darker-yellow);
+  font-weight: 800;
+}
+
+.bolded-text {
+  /* text-decoration: none; */
+  font-weight: 800;
+}
+
+.italicized-text {
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  opacity: 1; /* necessary?*/
+  color: black;
+  transition: opacity 0.3s linear;
+}
+
+a:hover {
+  opacity: 0.55;
+}
+
+p {
+  margin: 10px 0;
+}
+
+li {
+  margin: 8px 0;
+}
