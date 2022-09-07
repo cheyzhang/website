@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.a404e39a.css",
-    "main.js": "/static/js/main.5377c98f.js",
-    "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
-    "static/media/namemap.gif": "/static/media/namemap.aafc8ed5f84e28eb15d1.gif",
-    "static/media/me_princeton.jpeg": "/static/media/me_princeton.32a8d5ce122e1835e97a.jpeg",
-    "static/media/nlmatics.gif": "/static/media/nlmatics.133278fc08ff120e5663.gif",
-    "static/media/thesis_ex.png": "/static/media/thesis_ex.a06f04090d38864e14ca.png",
-    "static/media/thecakerybakerygif.gif": "/static/media/thecakerybakerygif.37633f5ed3e330edc7de.gif",
-    "static/media/fall2020iw.png": "/static/media/fall2020iw.f04442bb992268adbe55.png",
-    "static/media/shiftscheduler.png": "/static/media/shiftscheduler.b48c475c53445dcbdcba.png",
-    "index.html": "/index.html",
-    "main.a404e39a.css.map": "/static/css/main.a404e39a.css.map",
-    "main.5377c98f.js.map": "/static/js/main.5377c98f.js.map",
-    "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
+    "main.css": "/website/static/css/main.a404e39a.css",
+    "main.js": "/website/static/js/main.fd9d047d.js",
+    "static/js/787.71e672d5.chunk.js": "/website/static/js/787.71e672d5.chunk.js",
+    "static/media/namemap.gif": "/website/static/media/namemap.aafc8ed5f84e28eb15d1.gif",
+    "static/media/me_princeton.jpeg": "/website/static/media/me_princeton.32a8d5ce122e1835e97a.jpeg",
+    "static/media/nlmatics.gif": "/website/static/media/nlmatics.133278fc08ff120e5663.gif",
+    "static/media/thesis_ex.png": "/website/static/media/thesis_ex.a06f04090d38864e14ca.png",
+    "static/media/thecakerybakerygif.gif": "/website/static/media/thecakerybakerygif.37633f5ed3e330edc7de.gif",
+    "static/media/fall2020iw.png": "/website/static/media/fall2020iw.f04442bb992268adbe55.png",
+    "static/media/shiftscheduler.png": "/website/static/media/shiftscheduler.b48c475c53445dcbdcba.png",
+    "index.html": "/website/index.html",
+    "main.a404e39a.css.map": "/website/static/css/main.a404e39a.css.map",
+    "main.fd9d047d.js.map": "/website/static/js/main.fd9d047d.js.map",
+    "787.71e672d5.chunk.js.map": "/website/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a404e39a.css",
-    "static/js/main.5377c98f.js"
+    "static/js/main.fd9d047d.js"
   ]
 }
